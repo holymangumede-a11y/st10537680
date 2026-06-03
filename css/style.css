@@ -1,0 +1,283 @@
+/* Shared website stylesheet */
+:root {
+  color-scheme: light;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+header {
+  background: #0b3a5d;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 16px;
+}
+header img {
+  max-width: 140px;
+  margin: 0 auto 16px;
+}
+header h2 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+header p {
+  margin: 0;
+  opacity: 0.9;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  margin: 18px auto 0;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.16);
+  padding: 10px 16px;
+  border-radius: 999px;
+  transition: background 0.25s ease;
+}
+nav a:hover {
+  background: rgba(255, 255, 255, 0.32);
+}
+main {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 0 16px 24px;
+}
+main h1,
+main h2 {
+  color: #0b3a5d;
+}
+main p {
+  margin: 0 0 16px;
+}
+main img {
+  border-radius: 16px;
+  margin: 16px auto;
+}
+footer {
+  background: #062139;
+  color: #dbeafe;
+  padding: 20px 16px;
+  text-align: center;
+}
+footer p,
+footer h1 {
+  margin: 8px 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+
+.fleet-intro {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.fleet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 24px;
+}
+.fleet-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+.fleet-card img {
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.fleet-card h2 {
+  margin-top: 0;
+  color: #0b3a5d;
+}
+.fleet-card ul {
+  padding-left: 18px;
+  margin: 12px 0;
+}
+.fleet-card ul li {
+  margin-bottom: 8px;
+}
+.fleet-notes {
+  background: #eef2ff;
+  border-radius: 16px;
+  padding: 16px;
+}
+.fleet-notes h2 {
+  margin-top: 0;
+}
+footer a {
+  color: #dbeafe;
+  text-decoration: underline;
+}
+
+.contact-map {
+  margin: 24px 0;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.services-intro {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.service-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.service-card h2 {
+  margin-top: 0;
+  color: #0b3a5d;
+}
+
+.service-card ul {
+  padding-left: 18px;
+  margin: 12px 0;
+}
+
+.service-card ul li {
+  margin-bottom: 8px;
+}
+
+.service-features {
+  background: #eef2ff;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.service-features h2 {
+  margin-top: 0;
+  color: #0b3a5d;
+}
+
+.service-features ul {
+  padding-left: 18px;
+  margin: 12px 0;
+}
+
+.service-features ul li {
+  margin-bottom: 12px;
+}
+
+.booking-section {
+  text-align: center;
+  background: #0b3a5d;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.booking-section h2 {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.booking-section a {
+  color: #dbeafe;
+  text-decoration: underline;
+}
+
+.about-intro {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.about-content h2 {
+  color: #0b3a5d;
+  margin-top: 24px;
+}
+
+.about-content ul {
+  padding-left: 18px;
+}
+
+.about-content ul li {
+  margin-bottom: 12px;
+}
+
+.team-section {
+  margin: 24px 0;
+}
+
+.team-section h2 {
+  color: #0b3a5d;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-section > p {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #6b7280;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.team-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.team-card h3 {
+  color: #0b3a5d;
+  margin: 16px 16px 8px;
+}
+
+.team-card p {
+  padding: 0 16px 16px;
+  color: #6b7280;
+  margin: 0;
+}
+
